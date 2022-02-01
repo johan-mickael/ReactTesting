@@ -1,6 +1,6 @@
 import { useState } from "react";
 import "./App.css";
-import Card from "./Card";
+import Card from "./components/Card";
 import { _data } from "./data";
 
 function App() {
@@ -13,7 +13,7 @@ function App() {
       <div className="text-center">
         <h1 className="mb-4"><i>Our tours</i></h1>
 		<hr />
-        <h6 className="mb-4 text-secondary text-italic"><i>Bonjour tout le monde !</i></h6>
+        <h6 className="mb-4 text-secondary text-italic"><i>Hello !</i></h6>
       </div>
       <div className="row">
         <div className="col-md-3"></div>
